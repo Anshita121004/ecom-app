@@ -56,7 +56,7 @@ class WishlistPage:
         self.db_connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="9871618879",
+            password="####",
             database="amazon"
         )
         self.cursor = self.db_connection.cursor()
